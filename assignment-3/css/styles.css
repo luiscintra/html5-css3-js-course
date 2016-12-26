@@ -1,0 +1,50 @@
+* {
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Media Query for XS page size */
+@media (max-width: 767px) {
+    #collapsable-nav {
+        background-color: lightgreen;
+    } 
+
+    .row section { 
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 93%;  
+    }
+}
+
+#collapsable-nav a {
+    text-align: center;
+}
+
+.navbar {
+    border-radius: 0;
+    background-color: steelblue;   
+}
+
+.navbar-brand h1 {    
+    color: black;
+    margin: 0;
+    font-size: 1.5em;    
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.row section {
+    background-color: lightgray;
+       
+}
+
+hr.visible-xs {
+    margin: 0;
+}
+
